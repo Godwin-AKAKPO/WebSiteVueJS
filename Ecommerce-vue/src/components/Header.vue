@@ -1,7 +1,7 @@
 <template>
-    <header class="sticky top-0 z-50 transition-all duration-300">
+    <header class="sticky top-0 z-50 transition-all duration-300 ">
         <section :class="['w-full', isScrolled ? 'bg-gray-100/95 backdrop-blur shadow-md py-2' : 'bg-gray-100 py-4']">
-            <div class="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6">
                     <!-- Logo Mobile Menu Toggle -->
                     <div class="flex justify-between items-center w-full md:w-auto">
