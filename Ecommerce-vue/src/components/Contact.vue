@@ -71,23 +71,27 @@
                                 <p class="text-gray-600">Paris, France 75001</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="mt-24">
-                        <h3 class="text-lg font-medium text-gray-900 mb-4">
-                            Follow Us
-                        </h3>
-                        <div class="flex space-x-4">
-                            <a href="#" class="bg-pink-200 hover:bg-gray-200 p-3 rounded-full transition duration-300">
-                                <Icon icon="fa-brands:instagram" class="text-pink-950" />
-                            </a>
-                            <a href="#" class="bg-pink-200 hover:bg-gray-200 p-3 rounded-full transition duration-300">
-                                <Icon icon="fa-brands:facebook-f" class="text-pink-950" />
-                            </a>
-                            <a href="#" class="bg-pink-200 hover:bg-gray-200 p-3 rounded-full transition duration-300">
-                                <Icon icon="fa-brands:twitter" class="text-pink-950" />
-                            </a>
+                        <div class="mt-24">
+                            <h3 class="text-lg font-medium text-gray-900 mb-4">
+                                Follow Us
+                            </h3>
+                            <div class="flex space-x-4">
+                                <a href="#"
+                                    class="bg-pink-200 hover:bg-gray-200 p-3 rounded-full transition duration-300">
+                                    <Icon icon="fa-brands:instagram" class="text-pink-950" />
+                                </a>
+                                <a href="#"
+                                    class="bg-pink-200 hover:bg-gray-200 p-3 rounded-full transition duration-300">
+                                    <Icon icon="fa-brands:facebook-f" class="text-pink-950" />
+                                </a>
+                                <a href="#"
+                                    class="bg-pink-200 hover:bg-gray-200 p-3 rounded-full transition duration-300">
+                                    <Icon icon="fa-brands:twitter" class="text-pink-950" />
+                                </a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
