@@ -72,18 +72,25 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
-import product from '../assets/téléchargement.jpeg';
+import product from '../assets/téléchargement-removebg-preview.png';
+import product1 from '../assets/images (1).jpeg';
+import product2 from '../assets/images (2).jpeg';
+import product3 from '../assets/images (3).jpeg';
+import product4 from '../assets/images (4).jpeg';
+import product5 from '../assets/images.jpeg';
+import product6 from '../assets/téléchargement (1).jpeg';
+import product7 from '../assets/téléchargement (2).jpeg'
 const currentSlide = ref(0);
 const productsPerPage = ref(4);
 const products = [
-    { id: 1, name: 'Floral', price: 99.99, rating: 4.5, image: product, discount: 20 },
-    { id: 2, name: 'Oriental', price: 199.99, rating: 4.5, image: product, discount: 20 },
-    { id: 3, name: 'Woody', price: 79.99, rating: 4.5, image: product, discount: 20 },
-    { id: 4, name: 'Floral', price: 99.99, rating: 4.5, image: product, discount: 20 },
+    { id: 1, name: 'Floral', price: 99.99, rating: 4.5, image: product4, discount: 20 },
+    { id: 2, name: 'Oriental', price: 199.99, rating: 4.5, image: product1, discount: 20 },
+    { id: 3, name: 'Woody', price: 79.99, rating: 4.5, image: product2, discount: 20 },
+    { id: 4, name: 'Optimus', price: 99.99, rating: 4.5, image: product6, discount: 20 },
     { id: 5, name: 'Floral', price: 99.99, rating: 4.5, image: product, discount: 20 },
-    { id: 6, name: 'Floral', price: 99.99, rating: 4.5, image: product, discount: 20 },
-    { id: 7, name: 'Floral', price: 99.99, rating: 4.5, image: product, discount: 20 },
-    { id: 8, name: 'Floral', price: 99.99, rating: 4.5, image: product, discount: 20 }
+    { id: 6, name: 'Floral', price: 99.99, rating: 4.5, image: product5, discount: 20 },
+    { id: 7, name: 'Floral', price: 99.99, rating: 4.5, image: product3, discount: 20 },
+    { id: 8, name: 'Floral', price: 99.99, rating: 4.5, image: product7, discount: 20 }
 ]
 const totalSlides = computed(() => Math.ceil(products.length / productsPerPage.value));
 const visibleProducts = computed(() => {
